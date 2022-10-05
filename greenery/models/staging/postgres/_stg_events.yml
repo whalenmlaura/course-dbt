@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: stg_events
+    # description: Contains addresses of users
+    columns:
+      - name: event_id
+        tests:
+          - not_null
+      - name: user_id
+        tests:
+          - not_null
+      - name: session_id
+        tests:
+          - not null
+      - name: page_url
+      - name: created_at
+        tests:
+          - not null
+      - name: order_id
+        tests:
+          - not null
+      - name: event_type
+      - name: product_id
+        tests:
+          - not null
+
+

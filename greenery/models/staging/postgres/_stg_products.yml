@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: stg_products
+    columns:
+      - name: product_id
+        tests:
+          - not_null
+      - name: name
+      - name: price
+      - name: inventory
+
+
+

@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: stg_order_items
+    # description: Contains addresses of users
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+      - name: product_id
+        tests:
+          - not_null
+      - name: quantity
+
+

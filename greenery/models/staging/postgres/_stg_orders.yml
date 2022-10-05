@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: stg_orders
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+      - name: user_id
+        tests:
+          - not_null
+      - name: promo_id
+        tests:
+          - not null
+      - name: address_id
+        tests:
+          - not null
+      - name: created_at
+        tests:
+          - not null
+      - name: order_cost
+      - name: shipping_cost
+      - name: order_total
+      - name: order_total
+      - name: tracking_id
+      - name: shipping_service
+      - name: estimated_delivery_at
+      - name: delivered_at
+      - name: status
+
+
+

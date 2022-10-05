@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_addresses
+    description: Contains addresses of users
+    columns:
+      - name: address_id
+        tests:
+          - not_null
+      - name: address
+        tests:
+          - not_null
+      - name: zipcode
+      - name: state
+      - name: country
+
+      

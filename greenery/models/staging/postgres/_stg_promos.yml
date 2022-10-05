@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_promos
+    columns:
+      - name: promo_id
+      - name: discount
+      - name: status
+
+
+
