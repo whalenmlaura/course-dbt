@@ -8,10 +8,10 @@ with addresses_source as (
     select * from {{ source('postgres', 'addresses') }}
 )
 
-SELECT 
+select 
       address_id
     , address
     , zipcode
     , state
     , country
-FROM addresses_source
+from addresses_source

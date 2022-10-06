@@ -12,4 +12,4 @@ SELECT
       order_id
     , product_id
     , quantity
-FROM order_itmes_source
+FROM order_items_source

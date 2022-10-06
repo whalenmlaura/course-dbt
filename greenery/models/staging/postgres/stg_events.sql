@@ -17,4 +17,4 @@ SELECT
     , event_type
     , order_id
     , product_id
-FROM events_sources
+FROM events_source

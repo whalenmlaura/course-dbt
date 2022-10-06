@@ -10,7 +10,7 @@ with products_source as (
 
 SELECT 
       product_id
-    , name
+    , name as product_name
     , price
     , inventory
 FROM products_source

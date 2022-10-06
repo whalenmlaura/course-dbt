@@ -2,6 +2,7 @@ version: 2
 
 models:
   - name: stg_orders
+    description: Contains information about orders
     columns:
       - name: order_id
         tests:

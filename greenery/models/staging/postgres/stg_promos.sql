@@ -11,7 +11,7 @@ with promos_source as (
 SELECT 
       promo_id
     , discount
-    , status
+    , status as promo_status
 FROM promos_source
 
 

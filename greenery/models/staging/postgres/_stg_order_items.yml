@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: stg_order_items
-    # description: Contains addresses of users
+    description: Contains information about items within an order
     columns:
       - name: order_id
         tests:

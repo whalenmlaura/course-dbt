@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: stg_events
-    # description: Contains addresses of users
+    description: Contains information about web events
     columns:
       - name: event_id
         tests:
