@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: stg_events
+  - name: stg_postgres__events
     description: Contains information about web events
     columns:
       - name: event_id

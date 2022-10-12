@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: stg_addresses
+  - name: stg_postgres__addresses
     description: Contains addresses of users
     columns:
       - name: address_id
