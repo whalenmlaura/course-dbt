@@ -23,15 +23,14 @@ The user repeat rate is 79.84%
 ### Which orders changed from week 1 to week 2? 
 
 ```
-select
-     order_id
-   , count(distinct(order_id)) as num_orders
-from dev_db.dbt_laura.snapshot_orders
-group by 1
-having num_orders > 1
+select * from dev_db.dbt_laura.snapshot_orders 
+where dbt_valid_to is not null
 ```
 
-No new orders this week? I think this might be because I'm submitting the project late
+Order IDs that have changed:
+* 914b8929-e04a-40f8-86ee-357f2be3a2a2
+* 05202733-0e17-4726-97c2-0520c024ab85
+* 939767ac-357a-4bec-91f8-a7b25edd46c9
 
 ### Dag image
 
