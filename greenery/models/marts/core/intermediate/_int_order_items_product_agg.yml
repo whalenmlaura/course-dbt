@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: int_order_items_product_agg
+    description: ""
+    columns:
+      - name: product_id
+        tests:
+          - not_null
+      - name: num_orders
+      - name: total_quantity_ordered

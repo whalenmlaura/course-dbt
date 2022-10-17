@@ -12,17 +12,17 @@ models:
           - not_null
       - name: session_id
         tests:
-          - not null
+          - not_null
       - name: page_url
       - name: created_at
         tests:
-          - not null
+          - not_null
       - name: order_id
         tests:
-          - not null
+          - not_null
       - name: event_type
       - name: product_id
         tests:
-          - not null
+          - not_null
 
 

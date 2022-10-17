@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: int_order_items_product_spend_agg
+    description: ""
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+      - name: product_id
+      - name: p_product_id
+      - name: quantity
+      - name: product_name
+      - name: price
+      - name: inventory
+

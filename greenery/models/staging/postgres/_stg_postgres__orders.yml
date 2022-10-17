@@ -12,13 +12,13 @@ models:
           - not_null
       - name: promo_id
         tests:
-          - not null
+          - not_null
       - name: address_id
         tests:
-          - not null
+          - not_null
       - name: created_at
         tests:
-          - not null
+          - not_null
       - name: order_cost
       - name: shipping_cost
       - name: order_total

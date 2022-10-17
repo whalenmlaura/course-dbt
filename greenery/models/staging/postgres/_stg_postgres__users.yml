@@ -15,7 +15,7 @@ models:
       - name: updated_at
       - name: address_id
         tests:
-          - not null
+          - not_null
 
       
 
