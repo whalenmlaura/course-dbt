@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: int_user_orders
+    description: ""
+    columns:
+      - name: user_id
+        tests:
+          - not_null
+      - name: num_orders
+      - name: order_cost_without_shipping
+      - name: shipping_cost
+      - name: total_order_cost
+      - name: total_promo_orders
+      - name: oldest_order
+      - name: newest_order

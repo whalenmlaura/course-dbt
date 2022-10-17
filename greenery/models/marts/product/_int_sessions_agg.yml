@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: int_sessions_agg
+    description: ""
+    columns:
+      - name: created_at
+      - name: session_id
+        tests:
+          - not_null
+      - name: event_id
+        tests:
+          - not_null
+      - name: user_id
+      - name: event_type
+      - name: order_id
+      - name: product_id
+      - name: total_checkouts
+      - name: total_packages_shipped
+      - name: total_add_to_carts
+      - name: total_page_views
+      - name: total_events

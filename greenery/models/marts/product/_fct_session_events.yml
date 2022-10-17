@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: fct_session_events
+    description: ""
+    columns:
+      - name: session_id
+        tests:
+          - not_null
+      - name: user_id
+        tests:
+          - not_null
+      - name: first_name
+      - name: last_name
+      - name: email
+      - name: total_page_views
+      - name: total_add_to_carts
+      - name: total_checkouts
+      - name: total_packages_shipped
+      - name: total_events

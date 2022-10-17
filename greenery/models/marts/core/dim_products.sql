@@ -5,7 +5,7 @@
 }}
 
 with products_source as (
-  select * from {{ref ('int_order_items_product_spend_agg')}}
+  select * from {{ref ('int_order_items_product_agg')}}
 )
 
 select 

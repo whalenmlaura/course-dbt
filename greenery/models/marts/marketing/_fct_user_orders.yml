@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: fct_user_orders
+    description: ""
+    columns:
+      - name: user_id
+        tests:
+          - not_null
+      - name: first_name
+      - name: last_name
+      - name: email
+      - name: phone_number
+      - name: created_at
+      - name: updated_at
+      - name: address_id
+        tests:
+          - not_null
+      - name: address
+      - name: zipcode
+      - name: state
+      - name: country
+      - name: num_orders
+      - name: order_cost_without_shipping
+      - name: shipping_cost
+      - name: total_order_cost
+      - name: total_promo_orders
+      - name: oldest_order
+      - name: newest_order
