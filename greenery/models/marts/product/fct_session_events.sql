@@ -18,10 +18,10 @@ select
   , u.first_name
   , u.last_name
   , u.email
-  , s.total_page_views
-  , s.total_add_to_carts
-  , s.total_checkouts
-  , s.total_packages_shipped
-  , s.total_events
+  , s.total_page_view
+  , s.total_add_to_cart
+  , s.total_checkout
+  , s.total_package_shipped
+  -- , s.total_event
 from sessions_source s
 left join users_source u on s.user_id = u.user_id
