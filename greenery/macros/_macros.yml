@@ -1,0 +1,9 @@
+version: 2
+
+macros:
+  - name: grant_user_role
+    description: ""
+    arguments:
+      - name: role
+        type: string
+        description: ""

@@ -26,7 +26,13 @@ models:
       - name: tracking_id
       - name: shipping_service
       - name: estimated_delivery_at
+        tests:
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: timestamp
       - name: delivered_at
+        tests:
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: timestamp
       - name: status
 
 
