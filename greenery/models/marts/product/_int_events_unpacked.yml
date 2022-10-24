@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: int_events_unpacked
+    description: Unpacked version of events table, with original events plus one event for each product checked out or shipped in postgres_order_items.
