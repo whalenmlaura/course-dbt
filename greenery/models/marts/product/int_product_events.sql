@@ -1,3 +1,9 @@
+{{
+  config(
+    materialized='table'
+  )
+}}
+
 with events_unpacked as (
     select * from {{ ref('int_events_unpacked') }}
 ),

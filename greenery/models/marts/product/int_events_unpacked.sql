@@ -1,3 +1,9 @@
+{{
+  config(
+    materialized='table'
+  )
+}}
+
 with unpack as (
     select  
          coalesce(poi.product_id, pe.product_id) product_guid_coalesce
