@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: fct_full_funnel
+    description: ""
+    columns:
+      - name: product_name

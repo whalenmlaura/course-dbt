@@ -10,6 +10,7 @@ with orders_source as (
 
 select 
     user_id
+  , order_id
   , count(distinct order_id) as num_orders
   , sum(order_cost) as order_cost_without_shipping
   , sum(shipping_cost) as shipping_cost
@@ -18,4 +19,4 @@ select
   , min(created_at) as oldest_order
   , max(created_at) as newest_order
 from orders_source
-group by 1
+group by 1,2
